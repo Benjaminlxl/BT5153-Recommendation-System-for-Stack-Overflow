@@ -76,7 +76,7 @@ In this paper, we attempt to implement several multiple traditional classificati
 
 Prior to the model implementation, text cleaning needs to be conducted and is divided into the following steps: 
 
-(1) remove all HTML tags (e.g., <p></p>); (2) remove punctuations; (3) change remaining words into lowercases; (4) remove stop words (Python NLTK package); (5) join words back to sentences. As the result, we cleaned original texts into 3 new columns “clean_title”, “clean_question” and “clean_answer”. 
+(1) remove all HTML tags (e.g., `<p></p>`); (2) remove punctuations; (3) change remaining words into lowercases; (4) remove stop words (Python NLTK package); (5) join words back to sentences. As the result, we cleaned original texts into 3 new columns “clean_title”, “clean_question” and “clean_answer”. 
 
 ### Feature Extraction
 
